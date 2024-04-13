@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Piazzolla');
+@import url('https://fonts.googleapis.com/css2?family=Mansalva');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+[x-cloak] {
+    display: none;
+}
+
+
+@layer base {
+    body {
+        font-family: 'Piazzolla', sans-serif;
+    }
+
+    body .main-logo{
+        font-family: 'Mansalva', sans-serif;
+    }
+}
